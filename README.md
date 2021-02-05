@@ -24,7 +24,7 @@ ACT = ['exp', 'log', 'sqr', 'p+2', 'p-1', 'add', 'div', 'end']
   
 DIM = 1  # Dimension of descriptors to explore  
   
-RESUME = False  # Integer n lager than 0 to continue a descriptor exploration with dimension n, False for start a new exploration with dimension 1  
+RESUME = False  # Integer n lager than 0 to continue a descriptor exploration with dimension n, False for start a new exploration
   
 MAX_ITER = 10  # Maximum number of iterations for exploration  
   
