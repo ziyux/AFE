@@ -28,9 +28,7 @@ RESUME = False  # Integer n lager than 0 for continuing a descriptor exploration
   
 MAX_ITER = 10  # Maximum number of iterations for exploration  
   
-EPISODE = 5  # Maximum number of episodes in each iteration, printing results frequency  
-  
-GROUP_SIZE = 40  # The size of each group for group features. Use 1 if not a group feature  
+EPISODE = 5  # Maximum number of episodes in each iteration, printing results frequency   
   
 MAX_COMP = 5  # Maximum complexity for descriptors  
   
