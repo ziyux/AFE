@@ -6,7 +6,7 @@ if __name__ == '__main__':
     ###########  Configuration  ###################
 
     MODE = 'r'  # 'r' for regression and 'c' for classification
-    FILENAME = 'DR_0.5train.pkl'  # dataset name
+    FILENAME = 'data_sample/DR_0.5train.pkl'  # dataset name
     # Operation set, which can include
     # ['exp', 'log', 'p-1', 'p+2', 'p+3', 'sqr', 'cbr', 'sin', 'cos', 'add', 'sub', 'mul', 'div', 'end']
     ACT = ['exp', 'p+2', 'p+3', 'neg', 'add', 'sub', 'mul', 'div', 'end']
