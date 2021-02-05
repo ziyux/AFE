@@ -29,6 +29,10 @@ RESUME = False  # True for continue a project, False for start a new one
 MAX_ITER = 10  # Maximum number of iterations for exploration  
   
 EPISODE = 5  # Maximum nu mber of episodes in each iteration, printing results frequency  
+
+# Licence
+
+AFE is released under the MIT Licence
   
 GROUP_SIZE = 40  # The size of each group for group features. Use 1 if not a group feature  
   
