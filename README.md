@@ -8,7 +8,7 @@ This program aims at automatically extract features in fomulation form for predi
 ```bash
 [[target_sample1, target_sample2, ...], [[[F1_sample1],[F1_sample2], ...],[[F2_sample1],[F2_sample2], ...], [F1_name, F2_name, ...]]
 ```
-2. Please Configure main.py to run
+2. Configure main.py to run
 
 3. Results can be viewed from the "nd_descriptors.txt" file in the "Filename_results" folder.
 
