@@ -1,6 +1,17 @@
 # AFE
 
-Please Configure main.py to run
+This program aims at automatically extract features in fomulation form for predictive modeling.
+
+# Usage
+
+1. prepare the dataset: The input dataset should be configured in .pkl files, which contains a three-layer list []. The first-layer list should contain each second-layer list [] for each feature, and each second-layer list [] should contain each third layer list [] for each sample. So group features with variant number of in-group features can be realized through variant number of in-group features in each third-layer list for each sample. The following line describes the data structure:
+
+```bash
+[[[F1_sample1],[F1_sample2],[F1_sample3]],[[F2_sample1],[F2_sample2],[F2_sample3]],...]
+```
+An example is given in /src/data_sample
+
+2. Please Configure main.py to run
 
 # Parameter description:
 
