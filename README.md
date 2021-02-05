@@ -11,6 +11,8 @@ This program aims at automatically extract features in fomulation form for predi
 ```
 2. Please Configure main.py to run
 
+3. Results can be viewed from the "nd_descriptors.txt" file in the "Filename_results" folder.
+
 # Parameter description:
 
 MODE = 'r'  # 'r' for regression and 'c' for classification  
