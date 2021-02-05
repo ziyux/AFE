@@ -4,13 +4,13 @@ This program aims at automatically extract features in fomulation form for predi
 
 # Usage
 
-1. Prepare the dataset: The input dataset should be configured in .pkl files, which contains a list consists of a target list [], a three-layer feature list [] and a feature name list []. The first-layer feature list should contain each second-layer feature list [] for each feature, and each second-layer feature list [] should contain each third layer feature list [] for each sample. So group features with variant number of in-group features can be realized through variant number of in-group features in each third-layer feature list for each sample. The following line describes the data structure, and an example is given in /src/data_sample.
+1. Prepare the dataset: The input dataset should be configured in .pkl files, which contains a list consists of a target list [], a three-layer feature list [] and a feature name list []. The first-layer feature list should contain each second-layer feature list [] for each feature, and each second-layer feature list [] should contain each third layer feature list [] for each sample. So group features with variant number of in-group features can be realized through variant number of in-group features in each third-layer feature list [] for each sample. The following line describes the data structure, and an example is given in /src/data_sample.
 ```bash
 [[target_sample1, target_sample2, ...], [[[F1_sample1],[F1_sample2], ...],[[F2_sample1],[F2_sample2], ...], [F1_name, F2_name, ...]]
 ```
 2. Configure main.py to run
 
-3. Results can be viewed from the "nd_descriptors.txt" file in the "Filename_results" folder.
+3. Results can be viewed from the "nD_descriptors.txt" file in the "Filename_results" folder.
 
 # Parameter description:
 
