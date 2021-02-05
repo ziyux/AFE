@@ -33,26 +33,3 @@ if __name__ == '__main__':
         eng.explore(MAX_ITER, TIME_BUDGET)
         if i < MAX_DIM:
             eng.increase_dim(True)
-
-    # descriptor_indexes = eng.dat.candidate_set_temp[1][0][-1][1]
-    # comp = (eng.dat.candidate_set_temp[1][0][2][1])
-    # indexes = [[split_index[0] for split_index in group] for group in descriptor_indexes]
-    # print(eng.fgt.print_descriptor(descriptor_indexes, *[1 for i in range(comp*2)]))
-    # # print(eng.fgt.calculate_descriptor(descriptor_indexes, *[1 for i in range(comp*2)]))
-    # nlr = NonlinearRegression(*[[-2, 2], [-2, 2]])
-    # print(nlr.fit(eng.fgt.calculate_descriptor, descriptor_indexes, eng.dat.target, comp))
-    # print(nlr.score())
-    #
-    # engt = AFE(FILENAME[:-9]+'test.pkl', ACT, MODE, resume=False, episodes=EPISODE, batch_size=BATCH_SIZE,
-    #           max_comp=MAX_COMP, cv=5, threshold=1, skip_read=False)
-    # engt.setup_dqn(hidden_layer=(150, 120), batch_size=64, epsilon=1.0, epsilon_decay=0.99,
-    #               epsilon_min=0.05, gamma=0.99, alpha=0.001, func_approximation='NN')
-
-    # descriptor_indexes = eng.dat.candidate_set_temp[1][0][-1][1]
-    # print(eng.fgt.print_descriptor(descriptor_indexes))
-    # fea = eng.fgt.calculate_descriptor(descriptor_indexes)
-    # clf = LinearRegression()
-    # clf.fit(fea, eng.dat.target)
-    # print(clf.score(fea, eng.dat.target))
-    # fea = engt.fgt.calculate_descriptor(descriptor_indexes)
-    # print(clf.score(fea, engt.dat.target))
