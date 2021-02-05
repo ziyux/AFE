@@ -7,7 +7,7 @@ This program aims at automatically extract features in fomulation form for predi
 1. Prepare the dataset: The input dataset should be configured in .pkl files, which contains a three-layer feature list [] and a target list []. The first-layer feature list should contain each second-layer feature list [] for each feature, and each second-layer feature list [] should contain each third layer feature list [] for each sample. So group features with variant number of in-group features can be realized through variant number of in-group features in each third-layer feature list for each sample. The following line describes the data structure, and an example is given in /src/data_sample.
 
 ```bash
-[[[F1_sample1],[F1_sample2],[F1_sample3]],[[F2_sample1],[F2_sample2],[F2_sample3]],...], [target_sample1, target_sample2, target_sample3]
+[[[F1_sample1],[F1_sample2],[F1_sample3]],[[F2_sample1],[F2_sample2],[F2_sample3]], ...], [target_sample1, target_sample2, target_sample3, ...]
 ```
 2. Please Configure main.py to run
 
