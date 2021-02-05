@@ -24,11 +24,11 @@ ACT = ['exp', 'log', 'sqr', 'p+2', 'p-1', 'add', 'div', 'end']
   
 DIM = 1  # Dimension of descriptors to explore  
   
-RESUME = False  # True for continue a project, False for start a new one  
+RESUME = False  # Integer n lager than 0 to continue a descriptor exploration with dimension n, False for start a new exploration with dimension 1  
   
 MAX_ITER = 10  # Maximum number of iterations for exploration  
   
-EPISODE = 5  # Maximum nu mber of episodes in each iteration, printing results frequency  
+EPISODE = 5  # Maximum number of episodes in each iteration, printing results frequency  
   
 GROUP_SIZE = 40  # The size of each group for group features. Use 1 if not a group feature  
   
