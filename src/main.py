@@ -1,6 +1,4 @@
 from AFE import AFE
-# from AFE_NLR import NonlinearRegression
-from sklearn.linear_model import LinearRegression
 
 if __name__ == '__main__':
     ###########  Configuration  ###################
