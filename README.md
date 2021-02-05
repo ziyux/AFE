@@ -1,6 +1,6 @@
 # AFE
 
-This program aims at automatically extract features in fomulation form for predictive modeling. Our preprint paper can be viewed from: https://www.aaai.org/AAAI21Papers/AAAI-8963.XiangZ.pdf
+This program aims at automatically extract features in fomulation form for predictive modeling. Our preprint paper can be viewed from: [Physics-constrained Automatic Feature Engineering for Predictive Modeling in Materials Science](https://www.aaai.org/AAAI21Papers/AAAI-8963.XiangZ.pdf)
 
 # Usage
 
